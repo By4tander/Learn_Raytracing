@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Raytracing",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "00Basic::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-00Basic-Debug-7f65af2ab862c5e6e72a.json",
+					"name" : "00Basic",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01Normals::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01Normals-Debug-e6b799cb32c2d5a3ead2.json",
+					"name" : "01Normals",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02Add_Objects::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02Add_Objects-Debug-bc0c0f1aa0d36f523588.json",
+					"name" : "02Add_Objects",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03Antialiasing::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03Antialiasing-Debug-2040549e005dc6791f57.json",
+					"name" : "03Antialiasing",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "04Simple_DiffuseMaterial::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-04Simple_DiffuseMaterial-Debug-407affdcf0b158b5d897.json",
+					"name" : "04Simple_DiffuseMaterial",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/jiayiren/Documents/GitHub/Learn_Raytracing/cmake-build-debug",
+		"source" : "/Users/jiayiren/Documents/GitHub/Learn_Raytracing"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

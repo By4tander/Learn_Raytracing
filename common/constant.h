@@ -39,4 +39,10 @@ inline double random_double(double min, double max){
 #include "ray.h"
 #include "vec3.h"
 
+//clamps the value to the range [min,max]:
+inline double clamp(double x, double min, double max) {
+    if (x < min) return min;
+    if (x > max) return max;
+    return x;
+}
 #endif //RAYTRACING_CONSTANT_H

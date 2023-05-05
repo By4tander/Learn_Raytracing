@@ -74,7 +74,7 @@ int main() {
             //获取ray光线，从原点出发，方向是从左下角开始
             ray r(origin, lower_left_corner + u*horizontal + v*vertical - origin);
             color pixel_color = ray_color(r);
-            write_color(ofs, pixel_color);
+            write_color_simple(ofs, pixel_color);
         }
     }
 

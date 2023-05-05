@@ -6,6 +6,7 @@
 #ifndef RAYTRACING_VEC3_H
 #define RAYTRACING_VEC3_H
 
+#include "constant.h"
 
 #include <cmath>
 #include <iostream>
@@ -66,13 +67,28 @@ public:
         return sqrt(length_squared());
     }
 
+    //获得向量长度
     double length_squared() const {
         return e[0]*e[0] + e[1]*e[1] + e[2]*e[2];
     }
 
+    //functions below are using to generate random number
+    //they will be used in "diffuse materials"
+    inline static vec3 random(){
+        return vec3(random_double(), random_double(), random_double());
+    }
+
+    inline static vec3 random(double min, double max) {
+        return vec3(random_double(min,max), random_double(min,max), random_double(min,max));
+    }
+
+
+
+
 public:
     double e[3];
 };
+
 
 // Type aliases for vec3，实际上都是vec3，增加可读性
 using point3 = vec3;   // 3D point,表示点坐标
@@ -126,4 +142,15 @@ inline vec3 cross(const vec3 &u, const vec3 &v) {
 inline vec3 unit_vector(vec3 v) {
     return v / v.length();
 }
+
+vec3 random_in_unit_sphere() {
+    while (true) {
+        auto p = vec3::random(-1,1);
+
+        //如果向量长度>1说明该点在球外
+        if (p.length_squared() >= 1) continue;
+        return p;
+    }
+}
+
 #endif

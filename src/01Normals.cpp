@@ -81,7 +81,7 @@ int main() {
             auto v = double(j) / (image_height-1);
             ray r(origin, lower_left_corner + u*horizontal + v*vertical - origin);
             color pixel_color = ray_color(r);
-            write_color(ofs, pixel_color);
+            write_color_simple(ofs, pixel_color);
         }
     }
 

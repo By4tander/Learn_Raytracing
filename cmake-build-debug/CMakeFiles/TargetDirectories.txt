@@ -1,0 +1,7 @@
+/Users/jiayiren/Documents/GitHub/Learn_Raytracing/cmake-build-debug/CMakeFiles/00Basic.dir
+/Users/jiayiren/Documents/GitHub/Learn_Raytracing/cmake-build-debug/CMakeFiles/01Normals.dir
+/Users/jiayiren/Documents/GitHub/Learn_Raytracing/cmake-build-debug/CMakeFiles/02Add_Objects.dir
+/Users/jiayiren/Documents/GitHub/Learn_Raytracing/cmake-build-debug/CMakeFiles/03Antialiasing.dir
+/Users/jiayiren/Documents/GitHub/Learn_Raytracing/cmake-build-debug/CMakeFiles/04Simple_DiffuseMaterial.dir
+/Users/jiayiren/Documents/GitHub/Learn_Raytracing/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/jiayiren/Documents/GitHub/Learn_Raytracing/cmake-build-debug/CMakeFiles/rebuild_cache.dir

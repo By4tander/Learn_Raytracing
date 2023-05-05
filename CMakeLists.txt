@@ -11,6 +11,7 @@ set(SRCS
         01Normals
         02Add_Objects
         03Antialiasing
+        04Simple_DiffuseMaterial
         )
 
 
