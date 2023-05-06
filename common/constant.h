@@ -35,9 +35,9 @@ inline double random_double(double min, double max){
     return min+(max-min)*random_double();
 }
 
-//common headers
-#include "ray.h"
-#include "vec3.h"
+////common headers
+//#include "ray.h"
+//#include "vec3.h"
 
 //clamps the value to the range [min,max]:
 inline double clamp(double x, double min, double max) {

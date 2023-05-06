@@ -22,6 +22,7 @@ void write_color_simple(std::ofstream &ofs, color pixel_color) {
         << static_cast<int>(255.999 * pixel_color.z()) << '\n';
 }
 
+//-----------------Antialiasing and---------------
 void write_color_with_samples(std::ofstream &out, color pixel_color, int samples_per_pixel) {
     auto r = pixel_color.x();
     auto g = pixel_color.y();
@@ -29,9 +30,17 @@ void write_color_with_samples(std::ofstream &out, color pixel_color, int samples
 
     // Divide the color by the number of samples.
     auto scale = 1.0 / samples_per_pixel;
-    r *= scale;
-    g *= scale;
-    b *= scale;
+
+    //gamma-correct for gamma=2.0
+    r = sqrt(scale * r);
+    g = sqrt(scale * g);
+    b = sqrt(scale * b);
+
+    //without gamma-correct
+//    r *= scale;
+//    g *= scale;
+//    b *= scale;
+
 
     // Write the translated [0,255] value of each color component.
     out << static_cast<int>(256 * clamp(r, 0.0, 0.999)) << ' '

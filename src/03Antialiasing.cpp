@@ -8,13 +8,13 @@
 //From this task, we create a class to manage our
 //virtual camera and the related tasks of scene sampling.
 
-#include "../common/render_color.h"
-#include "../common/ray.h"
+#include "render_color.h"
+#include "ray.h"
 #include "../common/vec3.h"
-#include "../common/hittable_list.h"
-#include "../common/sphere.h"
+#include "hittable_list.h"
+#include "sphere.h"
 #include "../common/constant.h"
-#include "../common/camera.h"
+#include "camera.h"
 
 #include <fstream>
 #include <iostream>
@@ -37,7 +37,10 @@ int main() {
     const auto aspect_ratio = 16.0 / 9.0;
     const int image_width = 400;
     const int image_height = static_cast<int>(image_width / aspect_ratio);
-    const int samples_per_pixel = 100;//每个像素采样100个样本用于antialiasing
+
+    //---------------------------------------------------
+    const int samples_per_pixel = 1000;//每个像素采样100个样本用于antialiasing
+    //---------------------------------------------------
 
     // World
     hittable_list world;
