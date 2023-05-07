@@ -4,5 +4,7 @@
 /Users/jiayiren/Documents/GitHub/Learn_Raytracing/cmake-build-debug/CMakeFiles/03Antialiasing.dir
 /Users/jiayiren/Documents/GitHub/Learn_Raytracing/cmake-build-debug/CMakeFiles/04Simple_DiffuseMaterial.dir
 /Users/jiayiren/Documents/GitHub/Learn_Raytracing/cmake-build-debug/CMakeFiles/05Better_Diffuse.dir
+/Users/jiayiren/Documents/GitHub/Learn_Raytracing/cmake-build-debug/CMakeFiles/06Lambertian_Reflection.dir
+/Users/jiayiren/Documents/GitHub/Learn_Raytracing/cmake-build-debug/CMakeFiles/07Matel.dir
 /Users/jiayiren/Documents/GitHub/Learn_Raytracing/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/jiayiren/Documents/GitHub/Learn_Raytracing/cmake-build-debug/CMakeFiles/rebuild_cache.dir

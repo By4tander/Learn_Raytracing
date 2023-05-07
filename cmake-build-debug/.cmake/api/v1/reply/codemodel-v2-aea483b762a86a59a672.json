@@ -20,7 +20,9 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6,
+						7
 					]
 				}
 			],
@@ -40,7 +42,9 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6,
+						7
 					]
 				}
 			],
@@ -49,43 +53,57 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "00Basic::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-00Basic-Debug-c5e75d46e7562c5e3d05.json",
+					"jsonFile" : "target-00Basic-Debug-3f4823deb632a10d354c.json",
 					"name" : "00Basic",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "01Normals::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-01Normals-Debug-473b7d22049572dafe26.json",
+					"jsonFile" : "target-01Normals-Debug-5d4d6912ec125853e257.json",
 					"name" : "01Normals",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "02Add_Objects::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-02Add_Objects-Debug-505ee45f46828aff15e5.json",
+					"jsonFile" : "target-02Add_Objects-Debug-11bb7c81c113c072d616.json",
 					"name" : "02Add_Objects",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "03Antialiasing::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-03Antialiasing-Debug-fbb30d272d094d7e5a18.json",
+					"jsonFile" : "target-03Antialiasing-Debug-10a9bbd4b10d02580ec1.json",
 					"name" : "03Antialiasing",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "04Simple_DiffuseMaterial::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-04Simple_DiffuseMaterial-Debug-02a323c29d9e95e6a509.json",
+					"jsonFile" : "target-04Simple_DiffuseMaterial-Debug-4077db5d20db30b64f00.json",
 					"name" : "04Simple_DiffuseMaterial",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "05Better_Diffuse::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-05Better_Diffuse-Debug-6ecbaed03d4c1dfb6110.json",
+					"jsonFile" : "target-05Better_Diffuse-Debug-e152d883b234cd1346d5.json",
 					"name" : "05Better_Diffuse",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "06Lambertian_Reflection::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-06Lambertian_Reflection-Debug-22928aa2187c2ef12db3.json",
+					"name" : "06Lambertian_Reflection",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "07Matel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-07Matel-Debug-7bc2a5535121bcadcebb.json",
+					"name" : "07Matel",
 					"projectIndex" : 0
 				}
 			]

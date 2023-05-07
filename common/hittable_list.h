@@ -46,6 +46,7 @@ bool hittable_list::hit(const ray& r, double t_min, double t_max, hit_record& re
     // closest_so_far记录目前为止最近的,初始设置为最远
     auto closest_so_far = t_max;
 
+    //从shared_ptr objets中遍历每一个指针指向的object
     for (const auto& object : objects) {
         if (object->hit(r, t_min, closest_so_far, temp_rec)) {
             hit_anything = true;

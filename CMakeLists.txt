@@ -16,21 +16,13 @@ set(SRCS
         03Antialiasing
         04Simple_DiffuseMaterial
         05Better_Diffuse
+        06Lambertian_Reflection
+        07Matel
+
         )
-
-
 
 foreach(SRC ${SRCS})
     add_executable(${SRC}
-#            src/${SRC}.cpp
-#            common/hittable_list.h
-#            common/render_color.h
-#            common/hittable.h
-#            common/ray.h
-#            common/sphere.h
-#            common/vec3.h
-#            common/constant.h
-#            common/camera.h
             )
 
     target_sources(${SRC}
@@ -44,6 +36,8 @@ foreach(SRC ${SRCS})
             common/vec3.h
             common/constant.h
             common/camera.h
+            common/material.h
+            common/Sphere_with_material.h
             )
 
     set_target_properties(${SRC}

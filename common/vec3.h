@@ -83,6 +83,11 @@ public:
     }
 
 
+    //07用于避免等于0的情况引发的问题
+    bool near_zero() const {
+        // Return true if the vector is close to zero in all dimensions.
+        const auto s = 1e-8;
+        return (fabs(e[0]) < s) && (fabs(e[1]) < s) && (fabs(e[2]) < s);}
 
 
 public:
@@ -143,6 +148,14 @@ inline vec3 unit_vector(vec3 v) {
     return v / v.length();
 }
 
+//for 04随机获取一个球内点，为了获取漫反射随机光线。
+/*****************************************
+ * 用拒绝采样方法在单位球内产生随机点
+ * 这些点沿着表面法线偏移。这相当于在半球上选择方向，
+ * 其在接近法线的地方具有较高的概率，而在掠射角处散射光线的概率较低。
+ * 这个分布按照 cos³(𝜙) 进行缩放，其中 𝜙 是与法线的角度。
+ * 因为以较小的角度到达的光会在更大的区域上扩散，从而对最终颜色的贡献较低。
+ */
 vec3 random_in_unit_sphere() {
     while (true) {
         auto p = vec3::random(-1,1);
@@ -153,4 +166,15 @@ vec3 random_in_unit_sphere() {
     }
 }
 
+
+//For 06, create a true lambertian reflection
+vec3 random_unit_vector() {
+    //单位化
+    return unit_vector(random_in_unit_sphere());
+}
+
+//07获得反射法线，原理见notion
+vec3 reflect(const vec3& v, const vec3& n) {
+    return v - 2*dot(v,n)*n;
+}
 #endif
