@@ -17,8 +17,8 @@ set(SRCS
         04Simple_DiffuseMaterial
         05Better_Diffuse
         06Lambertian_Reflection
-        07Matel
-
+        07Metal
+        08Fuzzy_Reflection
         )
 
 foreach(SRC ${SRCS})

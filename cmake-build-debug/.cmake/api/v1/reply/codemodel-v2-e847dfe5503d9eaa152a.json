@@ -22,7 +22,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				}
 			],
@@ -44,7 +45,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				}
 			],
@@ -101,9 +103,16 @@
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "07Matel::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-07Matel-Debug-7bc2a5535121bcadcebb.json",
-					"name" : "07Matel",
+					"id" : "07Metal::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-07Metal-Debug-9ef5ba01b9937ebbe04f.json",
+					"name" : "07Metal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "08Fuzzy_Reflection::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-08Fuzzy_Reflection-Debug-1cad76a6017b9d0a4119.json",
+					"name" : "08Fuzzy_Reflection",
 					"projectIndex" : 0
 				}
 			]

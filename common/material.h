@@ -74,19 +74,25 @@ public:
 
 class metal : public material {
 public:
-    metal(const color& a) : albedo(a) {}
+    //08添加了fuzz扰动，fuzz为0时无扰动模糊
+    metal(const color& a, double f) : albedo(a), fuzz(f < 1 ? f : 1) {}
 
     virtual bool scatter(
             const ray& r_in, const hit_record& rec, color& attenuation, ray& scattered
     ) const override {
         vec3 reflected = reflect(unit_vector(r_in.direction()), rec.normal);
-        scattered = ray(rec.p, reflected);
+
+        //ray的方向通过fuzz*随机量得到
+        ray(rec.p, reflected + fuzz*random_in_unit_sphere());
         attenuation = albedo;
         return (dot(scattered.direction(), rec.normal) > 0);
     }
 
 public:
     color albedo;
+
+    //08添加扰动值，fuzzy reflection，见notion
+    double fuzz;
 };
 
 #endif //RAYTRACING_MATERIAL_H
