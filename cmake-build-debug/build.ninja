@@ -52,7 +52,7 @@ build cmake_object_order_depends_target_00Basic: phony || CMakeFiles/00Basic.dir
 build CMakeFiles/00Basic.dir/src/00Basic.cpp.o: CXX_COMPILER__00Basic_Debug /Users/jiayiren/Documents/GitHub/Learn_Raytracing/src/00Basic.cpp || cmake_object_order_depends_target_00Basic
   DEP_FILE = CMakeFiles/00Basic.dir/src/00Basic.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++20
-  INCLUDES = -I/Users/jiayiren/Documents/GitHub/Learn_Raytracing/common
+  INCLUDES = -I/Users/jiayiren/Documents/GitHub/Learn_Raytracing/common -I/Users/jiayiren/Documents/GitHub/Learn_Raytracing/Final_Includes
   OBJECT_DIR = CMakeFiles/00Basic.dir
   OBJECT_FILE_DIR = CMakeFiles/00Basic.dir/src
   TARGET_COMPILE_PDB = CMakeFiles/00Basic.dir/
@@ -87,7 +87,7 @@ build cmake_object_order_depends_target_01Normals: phony || CMakeFiles/01Normals
 build CMakeFiles/01Normals.dir/src/01Normals.cpp.o: CXX_COMPILER__01Normals_Debug /Users/jiayiren/Documents/GitHub/Learn_Raytracing/src/01Normals.cpp || cmake_object_order_depends_target_01Normals
   DEP_FILE = CMakeFiles/01Normals.dir/src/01Normals.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++20
-  INCLUDES = -I/Users/jiayiren/Documents/GitHub/Learn_Raytracing/common
+  INCLUDES = -I/Users/jiayiren/Documents/GitHub/Learn_Raytracing/common -I/Users/jiayiren/Documents/GitHub/Learn_Raytracing/Final_Includes
   OBJECT_DIR = CMakeFiles/01Normals.dir
   OBJECT_FILE_DIR = CMakeFiles/01Normals.dir/src
   TARGET_COMPILE_PDB = CMakeFiles/01Normals.dir/
@@ -122,7 +122,7 @@ build cmake_object_order_depends_target_02Add_Objects: phony || CMakeFiles/02Add
 build CMakeFiles/02Add_Objects.dir/src/02Add_Objects.cpp.o: CXX_COMPILER__02Add_Objects_Debug /Users/jiayiren/Documents/GitHub/Learn_Raytracing/src/02Add_Objects.cpp || cmake_object_order_depends_target_02Add_Objects
   DEP_FILE = CMakeFiles/02Add_Objects.dir/src/02Add_Objects.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++20
-  INCLUDES = -I/Users/jiayiren/Documents/GitHub/Learn_Raytracing/common
+  INCLUDES = -I/Users/jiayiren/Documents/GitHub/Learn_Raytracing/common -I/Users/jiayiren/Documents/GitHub/Learn_Raytracing/Final_Includes
   OBJECT_DIR = CMakeFiles/02Add_Objects.dir
   OBJECT_FILE_DIR = CMakeFiles/02Add_Objects.dir/src
   TARGET_COMPILE_PDB = CMakeFiles/02Add_Objects.dir/
@@ -157,7 +157,7 @@ build cmake_object_order_depends_target_03Antialiasing: phony || CMakeFiles/03An
 build CMakeFiles/03Antialiasing.dir/src/03Antialiasing.cpp.o: CXX_COMPILER__03Antialiasing_Debug /Users/jiayiren/Documents/GitHub/Learn_Raytracing/src/03Antialiasing.cpp || cmake_object_order_depends_target_03Antialiasing
   DEP_FILE = CMakeFiles/03Antialiasing.dir/src/03Antialiasing.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++20
-  INCLUDES = -I/Users/jiayiren/Documents/GitHub/Learn_Raytracing/common
+  INCLUDES = -I/Users/jiayiren/Documents/GitHub/Learn_Raytracing/common -I/Users/jiayiren/Documents/GitHub/Learn_Raytracing/Final_Includes
   OBJECT_DIR = CMakeFiles/03Antialiasing.dir
   OBJECT_FILE_DIR = CMakeFiles/03Antialiasing.dir/src
   TARGET_COMPILE_PDB = CMakeFiles/03Antialiasing.dir/
@@ -192,7 +192,7 @@ build cmake_object_order_depends_target_04Simple_DiffuseMaterial: phony || CMake
 build CMakeFiles/04Simple_DiffuseMaterial.dir/src/04Simple_DiffuseMaterial.cpp.o: CXX_COMPILER__04Simple_DiffuseMaterial_Debug /Users/jiayiren/Documents/GitHub/Learn_Raytracing/src/04Simple_DiffuseMaterial.cpp || cmake_object_order_depends_target_04Simple_DiffuseMaterial
   DEP_FILE = CMakeFiles/04Simple_DiffuseMaterial.dir/src/04Simple_DiffuseMaterial.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++20
-  INCLUDES = -I/Users/jiayiren/Documents/GitHub/Learn_Raytracing/common
+  INCLUDES = -I/Users/jiayiren/Documents/GitHub/Learn_Raytracing/common -I/Users/jiayiren/Documents/GitHub/Learn_Raytracing/Final_Includes
   OBJECT_DIR = CMakeFiles/04Simple_DiffuseMaterial.dir
   OBJECT_FILE_DIR = CMakeFiles/04Simple_DiffuseMaterial.dir/src
   TARGET_COMPILE_PDB = CMakeFiles/04Simple_DiffuseMaterial.dir/
@@ -227,7 +227,7 @@ build cmake_object_order_depends_target_05Better_Diffuse: phony || CMakeFiles/05
 build CMakeFiles/05Better_Diffuse.dir/src/05Better_Diffuse.cpp.o: CXX_COMPILER__05Better_Diffuse_Debug /Users/jiayiren/Documents/GitHub/Learn_Raytracing/src/05Better_Diffuse.cpp || cmake_object_order_depends_target_05Better_Diffuse
   DEP_FILE = CMakeFiles/05Better_Diffuse.dir/src/05Better_Diffuse.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++20
-  INCLUDES = -I/Users/jiayiren/Documents/GitHub/Learn_Raytracing/common
+  INCLUDES = -I/Users/jiayiren/Documents/GitHub/Learn_Raytracing/common -I/Users/jiayiren/Documents/GitHub/Learn_Raytracing/Final_Includes
   OBJECT_DIR = CMakeFiles/05Better_Diffuse.dir
   OBJECT_FILE_DIR = CMakeFiles/05Better_Diffuse.dir/src
   TARGET_COMPILE_PDB = CMakeFiles/05Better_Diffuse.dir/
@@ -262,7 +262,7 @@ build cmake_object_order_depends_target_06Lambertian_Reflection: phony || CMakeF
 build CMakeFiles/06Lambertian_Reflection.dir/src/06Lambertian_Reflection.cpp.o: CXX_COMPILER__06Lambertian_Reflection_Debug /Users/jiayiren/Documents/GitHub/Learn_Raytracing/src/06Lambertian_Reflection.cpp || cmake_object_order_depends_target_06Lambertian_Reflection
   DEP_FILE = CMakeFiles/06Lambertian_Reflection.dir/src/06Lambertian_Reflection.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++20
-  INCLUDES = -I/Users/jiayiren/Documents/GitHub/Learn_Raytracing/common
+  INCLUDES = -I/Users/jiayiren/Documents/GitHub/Learn_Raytracing/common -I/Users/jiayiren/Documents/GitHub/Learn_Raytracing/Final_Includes
   OBJECT_DIR = CMakeFiles/06Lambertian_Reflection.dir
   OBJECT_FILE_DIR = CMakeFiles/06Lambertian_Reflection.dir/src
   TARGET_COMPILE_PDB = CMakeFiles/06Lambertian_Reflection.dir/
@@ -297,7 +297,7 @@ build cmake_object_order_depends_target_07Metal: phony || CMakeFiles/07Metal.dir
 build CMakeFiles/07Metal.dir/src/07Metal.cpp.o: CXX_COMPILER__07Metal_Debug /Users/jiayiren/Documents/GitHub/Learn_Raytracing/src/07Metal.cpp || cmake_object_order_depends_target_07Metal
   DEP_FILE = CMakeFiles/07Metal.dir/src/07Metal.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++20
-  INCLUDES = -I/Users/jiayiren/Documents/GitHub/Learn_Raytracing/common
+  INCLUDES = -I/Users/jiayiren/Documents/GitHub/Learn_Raytracing/common -I/Users/jiayiren/Documents/GitHub/Learn_Raytracing/Final_Includes
   OBJECT_DIR = CMakeFiles/07Metal.dir
   OBJECT_FILE_DIR = CMakeFiles/07Metal.dir/src
   TARGET_COMPILE_PDB = CMakeFiles/07Metal.dir/
@@ -332,7 +332,7 @@ build cmake_object_order_depends_target_08Fuzzy_Reflection: phony || CMakeFiles/
 build CMakeFiles/08Fuzzy_Reflection.dir/src/08Fuzzy_Reflection.cpp.o: CXX_COMPILER__08Fuzzy_Reflection_Debug /Users/jiayiren/Documents/GitHub/Learn_Raytracing/src/08Fuzzy_Reflection.cpp || cmake_object_order_depends_target_08Fuzzy_Reflection
   DEP_FILE = CMakeFiles/08Fuzzy_Reflection.dir/src/08Fuzzy_Reflection.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++20
-  INCLUDES = -I/Users/jiayiren/Documents/GitHub/Learn_Raytracing/common
+  INCLUDES = -I/Users/jiayiren/Documents/GitHub/Learn_Raytracing/common -I/Users/jiayiren/Documents/GitHub/Learn_Raytracing/Final_Includes
   OBJECT_DIR = CMakeFiles/08Fuzzy_Reflection.dir
   OBJECT_FILE_DIR = CMakeFiles/08Fuzzy_Reflection.dir/src
   TARGET_COMPILE_PDB = CMakeFiles/08Fuzzy_Reflection.dir/
@@ -354,6 +354,146 @@ build 08Fuzzy_Reflection: CXX_EXECUTABLE_LINKER__08Fuzzy_Reflection_Debug CMakeF
   TARGET_COMPILE_PDB = CMakeFiles/08Fuzzy_Reflection.dir/
   TARGET_FILE = 08Fuzzy_Reflection
   TARGET_PDB = 08Fuzzy_Reflection.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 09Dielectrics
+
+
+#############################################
+# Order-only phony target for 09Dielectrics
+
+build cmake_object_order_depends_target_09Dielectrics: phony || CMakeFiles/09Dielectrics.dir
+
+build CMakeFiles/09Dielectrics.dir/src/09Dielectrics.cpp.o: CXX_COMPILER__09Dielectrics_Debug /Users/jiayiren/Documents/GitHub/Learn_Raytracing/src/09Dielectrics.cpp || cmake_object_order_depends_target_09Dielectrics
+  DEP_FILE = CMakeFiles/09Dielectrics.dir/src/09Dielectrics.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++20
+  INCLUDES = -I/Users/jiayiren/Documents/GitHub/Learn_Raytracing/common -I/Users/jiayiren/Documents/GitHub/Learn_Raytracing/Final_Includes
+  OBJECT_DIR = CMakeFiles/09Dielectrics.dir
+  OBJECT_FILE_DIR = CMakeFiles/09Dielectrics.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/09Dielectrics.dir/
+  TARGET_PDB = 09Dielectrics.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 09Dielectrics
+
+
+#############################################
+# Link the executable 09Dielectrics
+
+build 09Dielectrics: CXX_EXECUTABLE_LINKER__09Dielectrics_Debug CMakeFiles/09Dielectrics.dir/src/09Dielectrics.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/09Dielectrics.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/09Dielectrics.dir/
+  TARGET_FILE = 09Dielectrics
+  TARGET_PDB = 09Dielectrics.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 10Positionable_Camera
+
+
+#############################################
+# Order-only phony target for 10Positionable_Camera
+
+build cmake_object_order_depends_target_10Positionable_Camera: phony || CMakeFiles/10Positionable_Camera.dir
+
+build CMakeFiles/10Positionable_Camera.dir/src/10Positionable_Camera.cpp.o: CXX_COMPILER__10Positionable_Camera_Debug /Users/jiayiren/Documents/GitHub/Learn_Raytracing/src/10Positionable_Camera.cpp || cmake_object_order_depends_target_10Positionable_Camera
+  DEP_FILE = CMakeFiles/10Positionable_Camera.dir/src/10Positionable_Camera.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++20
+  INCLUDES = -I/Users/jiayiren/Documents/GitHub/Learn_Raytracing/common -I/Users/jiayiren/Documents/GitHub/Learn_Raytracing/Final_Includes
+  OBJECT_DIR = CMakeFiles/10Positionable_Camera.dir
+  OBJECT_FILE_DIR = CMakeFiles/10Positionable_Camera.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/10Positionable_Camera.dir/
+  TARGET_PDB = 10Positionable_Camera.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10Positionable_Camera
+
+
+#############################################
+# Link the executable 10Positionable_Camera
+
+build 10Positionable_Camera: CXX_EXECUTABLE_LINKER__10Positionable_Camera_Debug CMakeFiles/10Positionable_Camera.dir/src/10Positionable_Camera.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/10Positionable_Camera.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/10Positionable_Camera.dir/
+  TARGET_FILE = 10Positionable_Camera
+  TARGET_PDB = 10Positionable_Camera.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 11Defocus_Blur
+
+
+#############################################
+# Order-only phony target for 11Defocus_Blur
+
+build cmake_object_order_depends_target_11Defocus_Blur: phony || CMakeFiles/11Defocus_Blur.dir
+
+build CMakeFiles/11Defocus_Blur.dir/src/11Defocus_Blur.cpp.o: CXX_COMPILER__11Defocus_Blur_Debug /Users/jiayiren/Documents/GitHub/Learn_Raytracing/src/11Defocus_Blur.cpp || cmake_object_order_depends_target_11Defocus_Blur
+  DEP_FILE = CMakeFiles/11Defocus_Blur.dir/src/11Defocus_Blur.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++20
+  INCLUDES = -I/Users/jiayiren/Documents/GitHub/Learn_Raytracing/common -I/Users/jiayiren/Documents/GitHub/Learn_Raytracing/Final_Includes
+  OBJECT_DIR = CMakeFiles/11Defocus_Blur.dir
+  OBJECT_FILE_DIR = CMakeFiles/11Defocus_Blur.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/11Defocus_Blur.dir/
+  TARGET_PDB = 11Defocus_Blur.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 11Defocus_Blur
+
+
+#############################################
+# Link the executable 11Defocus_Blur
+
+build 11Defocus_Blur: CXX_EXECUTABLE_LINKER__11Defocus_Blur_Debug CMakeFiles/11Defocus_Blur.dir/src/11Defocus_Blur.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/11Defocus_Blur.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/11Defocus_Blur.dir/
+  TARGET_FILE = 11Defocus_Blur
+  TARGET_PDB = 11Defocus_Blur.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Final
+
+
+#############################################
+# Order-only phony target for Final
+
+build cmake_object_order_depends_target_Final: phony || CMakeFiles/Final.dir
+
+build CMakeFiles/Final.dir/src/Final.cpp.o: CXX_COMPILER__Final_Debug /Users/jiayiren/Documents/GitHub/Learn_Raytracing/src/Final.cpp || cmake_object_order_depends_target_Final
+  DEP_FILE = CMakeFiles/Final.dir/src/Final.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++20
+  INCLUDES = -I/Users/jiayiren/Documents/GitHub/Learn_Raytracing/common -I/Users/jiayiren/Documents/GitHub/Learn_Raytracing/Final_Includes
+  OBJECT_DIR = CMakeFiles/Final.dir
+  OBJECT_FILE_DIR = CMakeFiles/Final.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/Final.dir/
+  TARGET_PDB = Final.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Final
+
+
+#############################################
+# Link the executable Final
+
+build Final: CXX_EXECUTABLE_LINKER__Final_Debug CMakeFiles/Final.dir/src/Final.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/Final.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/Final.dir/
+  TARGET_FILE = Final
+  TARGET_PDB = Final.pdb
 
 
 #############################################
@@ -389,7 +529,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/jiayiren/Documents/GitHub/Learn_Raytracing/cmake-build-debug
 
-build all: phony 00Basic 01Normals 02Add_Objects 03Antialiasing 04Simple_DiffuseMaterial 05Better_Diffuse 06Lambertian_Reflection 07Metal 08Fuzzy_Reflection
+build all: phony 00Basic 01Normals 02Add_Objects 03Antialiasing 04Simple_DiffuseMaterial 05Better_Diffuse 06Lambertian_Reflection 07Metal 08Fuzzy_Reflection 09Dielectrics 10Positionable_Camera 11Defocus_Blur Final
 
 # =============================================================================
 # Built-in targets

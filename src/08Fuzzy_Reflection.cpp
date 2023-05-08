@@ -4,12 +4,12 @@
 
 
 
-#include "render_color.h"
-#include "ray.h"
-#include "hittable_list.h"
-#include "Sphere_with_material.h"
+#include "../Final_Includes/render_color.h"
+#include "../Final_Includes/ray.h"
+#include "../Final_Includes/hittable_list.h"
+#include "../Final_Includes/Sphere_with_material.h"
 #include "camera.h"
-#include "material.h"
+#include "../Final_Includes/material.h"
 
 #include <fstream>
 #include <iostream>

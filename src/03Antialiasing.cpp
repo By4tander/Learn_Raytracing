@@ -12,9 +12,9 @@
 
 
 
-#include "render_color.h"
-#include "ray.h"
-#include "hittable_list.h"
+#include "../Final_Includes/render_color.h"
+#include "../Final_Includes/ray.h"
+#include "../Final_Includes/hittable_list.h"
 #include "sphere.h"
 #include "camera.h"
 

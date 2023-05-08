@@ -1,0 +1,168 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Raytracing",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "00Basic::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-00Basic-Debug-4d8a1e116792e42cef3c.json",
+					"name" : "00Basic",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01Normals::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01Normals-Debug-2cc159b0f69440fe569e.json",
+					"name" : "01Normals",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02Add_Objects::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02Add_Objects-Debug-778e8014ccfd837a8fdd.json",
+					"name" : "02Add_Objects",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03Antialiasing::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03Antialiasing-Debug-e15c7acfbd1b43b2b493.json",
+					"name" : "03Antialiasing",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "04Simple_DiffuseMaterial::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-04Simple_DiffuseMaterial-Debug-bb5282e654d937fef6a1.json",
+					"name" : "04Simple_DiffuseMaterial",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "05Better_Diffuse::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-05Better_Diffuse-Debug-da925d53921f0530749e.json",
+					"name" : "05Better_Diffuse",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "06Lambertian_Reflection::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-06Lambertian_Reflection-Debug-672c6913f47cc02bc7c7.json",
+					"name" : "06Lambertian_Reflection",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "07Metal::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-07Metal-Debug-e84a70c3b3791ebc5350.json",
+					"name" : "07Metal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "08Fuzzy_Reflection::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-08Fuzzy_Reflection-Debug-c49198d0c44ce98b62b8.json",
+					"name" : "08Fuzzy_Reflection",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "09Dielectrics::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-09Dielectrics-Debug-5b7d8e6dc9b3e7d58095.json",
+					"name" : "09Dielectrics",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "10Positionable_Camera::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-10Positionable_Camera-Debug-a58b5275ace0a7e18053.json",
+					"name" : "10Positionable_Camera",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "11Defocus_Blur::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-11Defocus_Blur-Debug-cfb5df5b398244c8adf6.json",
+					"name" : "11Defocus_Blur",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Final::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Final-Debug-2ed482adc822a06e7f37.json",
+					"name" : "Final",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/jiayiren/Documents/GitHub/Learn_Raytracing/cmake-build-debug",
+		"source" : "/Users/jiayiren/Documents/GitHub/Learn_Raytracing"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

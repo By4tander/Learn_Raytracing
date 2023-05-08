@@ -1,12 +1,12 @@
 //
 // Created by 贾奕人 on 2023/5/5.
 //
-#include "../common/render_color.h"
-#include "../common/ray.h"
-#include "../common/vec3.h"
-#include "../common/hittable_list.h"
+#include "../Final_Includes/render_color.h"
+#include "../Final_Includes/ray.h"
+#include "../Final_Includes/vec3.h"
+#include "../Final_Includes/hittable_list.h"
 #include "../common/sphere.h"
-#include "../common/constant.h"
+#include "../Final_Includes/constant.h"
 
 #include <fstream>
 #include <iostream>

@@ -1,6 +1,6 @@
-#include "render_color.h"
-#include "ray.h"
-#include "vec3.h"
+#include "../Final_Includes/render_color.h"
+#include "../Final_Includes/ray.h"
+#include "../Final_Includes/vec3.h"
 #include <fstream>
 
 

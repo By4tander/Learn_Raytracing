@@ -7,5 +7,9 @@
 /Users/jiayiren/Documents/GitHub/Learn_Raytracing/cmake-build-debug/CMakeFiles/06Lambertian_Reflection.dir
 /Users/jiayiren/Documents/GitHub/Learn_Raytracing/cmake-build-debug/CMakeFiles/07Metal.dir
 /Users/jiayiren/Documents/GitHub/Learn_Raytracing/cmake-build-debug/CMakeFiles/08Fuzzy_Reflection.dir
+/Users/jiayiren/Documents/GitHub/Learn_Raytracing/cmake-build-debug/CMakeFiles/09Dielectrics.dir
+/Users/jiayiren/Documents/GitHub/Learn_Raytracing/cmake-build-debug/CMakeFiles/10Positionable_Camera.dir
+/Users/jiayiren/Documents/GitHub/Learn_Raytracing/cmake-build-debug/CMakeFiles/11Defocus_Blur.dir
+/Users/jiayiren/Documents/GitHub/Learn_Raytracing/cmake-build-debug/CMakeFiles/Final.dir
 /Users/jiayiren/Documents/GitHub/Learn_Raytracing/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/jiayiren/Documents/GitHub/Learn_Raytracing/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -5,15 +5,15 @@
 #ifndef RAYTRACING_CAMERA_H
 #define RAYTRACING_CAMERA_H
 
-#include "constant.h"
-#include "ray.h"
+#include "../Final_Includes/constant.h"
+#include "../Final_Includes/ray.h"
 class camera{
 public:
     camera(){
         auto aspect_ratio = 16.0 / 9.0;
         auto viewport_height = 2.0;
         auto viewport_width = aspect_ratio * viewport_height;
-        auto focal_length = 1.0;
+        auto focal_length = 0.7;
 
         origin = point3(0, 0, 0);
         horizontal = vec3(viewport_width, 0.0, 0.0);

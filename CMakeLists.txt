@@ -19,6 +19,10 @@ set(SRCS
         06Lambertian_Reflection
         07Metal
         08Fuzzy_Reflection
+        09Dielectrics
+        10Positionable_Camera
+        11Defocus_Blur
+        Final
         )
 
 foreach(SRC ${SRCS})
@@ -28,16 +32,18 @@ foreach(SRC ${SRCS})
     target_sources(${SRC}
             PUBLIC
             src/${SRC}.cpp
-            common/hittable_list.h
-            common/render_color.h
-            common/hittable.h
-            common/ray.h
+            Final_Includes/hittable_list.h
+            Final_Includes/render_color.h
+            Final_Includes/hittable.h
+            Final_Includes/ray.h
             common/sphere.h
-            common/vec3.h
-            common/constant.h
+            Final_Includes/vec3.h
+            Final_Includes/constant.h
             common/camera.h
-            common/material.h
-            common/Sphere_with_material.h
+            Final_Includes/material.h
+            Final_Includes/Sphere_with_material.h
+            common/Positionable_Camera.h
+            Final_Includes/Final_Camera.h
             )
 
     set_target_properties(${SRC}
@@ -48,6 +54,7 @@ foreach(SRC ${SRCS})
     target_include_directories(${SRC}
             PUBLIC
             common
+            Final_Includes
             )
 
 

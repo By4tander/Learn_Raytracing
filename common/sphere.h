@@ -5,8 +5,8 @@
 #ifndef RAYTRACING_SPHERE_H
 #define RAYTRACING_SPHERE_H
 
-#include "hittable.h"
-#include "vec3.h"
+#include "../Final_Includes/hittable.h"
+#include "../Final_Includes/vec3.h"
 
 //sphere类，是hittable的子类，继承自hittable
 class sphere : public hittable

@@ -35,12 +35,12 @@
  For the shadows, less light bounces straight-up,
  so the parts of the larger sphere directly underneath the smaller sphere are brighter.
  */
-#include "render_color.h"
-#include "ray.h"
-#include "../common/vec3.h"
-#include "hittable_list.h"
+#include "../Final_Includes/render_color.h"
+#include "../Final_Includes/ray.h"
+#include "../Final_Includes/vec3.h"
+#include "../Final_Includes/hittable_list.h"
 #include "sphere.h"
-#include "../common/constant.h"
+#include "../Final_Includes/constant.h"
 #include "../common/camera.h"
 
 #include <fstream>

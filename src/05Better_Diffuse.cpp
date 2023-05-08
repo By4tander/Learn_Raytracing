@@ -11,12 +11,12 @@
 
 //04的图片非常暗。但是我们的球体每次反射只吸收能量的一半，所以它们是50%的反射体。如果你看不到阴影，不要担心，我们将立即修复。这些球体应该看起来相当亮（在现实生活中，是浅灰色）。原因是几乎所有的图像查看器都假设图像经过了"伽马校正"，也就是说0到1之间的值在存储为字节之前经过了某种变换。这样做有很多好的理由，但是对于我们的目的，我们只需要知道这一点即可。作为初步近似，我们可以使用"伽马2"，也就是将颜色提升到1/𝑔𝑎𝑚𝑚𝑎的幂，或者在我们的简单情况下，提升到1/2的幂，也就是平方根。
 
-#include "render_color.h"
-#include "ray.h"
-#include "../common/vec3.h"
-#include "hittable_list.h"
+#include "../Final_Includes/render_color.h"
+#include "../Final_Includes/ray.h"
+#include "../Final_Includes/vec3.h"
+#include "../Final_Includes/hittable_list.h"
 #include "sphere.h"
-#include "../common/constant.h"
+#include "../Final_Includes/constant.h"
 #include "../common/camera.h"
 
 #include <fstream>

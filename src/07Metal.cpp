@@ -6,12 +6,12 @@
 *
 */
 
-#include "render_color.h"
-#include "ray.h"
-#include "hittable_list.h"
-#include "Sphere_with_material.h"
+#include "../Final_Includes/render_color.h"
+#include "../Final_Includes/ray.h"
+#include "../Final_Includes/hittable_list.h"
+#include "../Final_Includes/Sphere_with_material.h"
 #include "camera.h"
-#include "material.h"
+#include "../Final_Includes/material.h"
 
 #include <fstream>
 #include <iostream>
@@ -24,7 +24,7 @@ color ray_color(const ray& r, const hittable& world, int depth) {
         return color(0,0,0);
 
     /*we use mat_ptr to get color*/
-    if (world.hit(r, 0.001, infinity, rec)) {
+    if (world.hit(r, 0.00001, infinity, rec)) {
         ray scattered;
         color attenuation;
         if (rec.mat_ptr->scatter(r, rec, attenuation, scattered))
